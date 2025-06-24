@@ -1,0 +1,41 @@
+
+.carousel {
+    margin-top: 80px;
+    overflow: hidden;
+    cursor: grab;
+}
+.inner-carousel {
+    display: flex;
+}
+.item {
+    min-height: 25rem;
+    min-width: 20rem;
+    padding: 40px 20px;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    pointer-events: none;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
